@@ -1,6 +1,6 @@
 {
   "name": "capped-array",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Simple Array extension to have a fixed-length array that automatically drops the last entry when pushing over the size",
   "main": "index.js",
   "scripts": {
