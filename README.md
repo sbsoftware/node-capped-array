@@ -9,6 +9,11 @@ Unfortunately I couldn't manage to make util.isArray() return true for CappedArr
 console.log won't display them like normal arrays, but like objects. That's what the toArray() method is for,
 which returns a real array containing the same entries as the CappedArray.
 
+Installation
+------------
+
+`npm install capped-array`
+
 Usage
 -----
 
