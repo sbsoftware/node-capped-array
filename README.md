@@ -12,14 +12,14 @@ which returns a real array containing the same entries as the CappedArray.
 Usage
 -----
 
-  var CappedArray = require('capped-array');
-  var cArr = new CappedArray(5);
+    var CappedArray = require('capped-array');
+    var cArr = new CappedArray(5);
 
-  console.log(cArr.toArray()); // []
+    console.log(cArr.toArray()); // []
 
-  cArr.push('test');
-  console.log(cArr.toArray()); // ['test']
+    cArr.push('test');
+    console.log(cArr.toArray()); // ['test']
 
-  cArr.forEach(function (el) {
-    console.log(el);
-  }); // test
+    cArr.forEach(function (el) {
+      console.log(el);
+    }); // test
