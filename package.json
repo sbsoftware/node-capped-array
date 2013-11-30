@@ -1,0 +1,25 @@
+{
+  "name": "capped-array",
+  "version": "0.0.0",
+  "description": "Simple Array extension to have a fixed-length array that automatically drops the last entry when pushing over the size",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/ --recursive -R list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sbsoftware/node-capped-array.git"
+  },
+  "keywords": [
+    "array",
+    "capped",
+    "list",
+    "fixed-length"
+  ],
+  "author": "Stefan Bilharz <stefan@sbsoftware.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbsoftware/node-capped-array/issues"
+  },
+  "homepage": "https://github.com/sbsoftware/node-capped-array"
+}
