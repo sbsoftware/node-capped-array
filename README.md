@@ -1,7 +1,7 @@
 node-capped-array
 =================
 
-Simple Array extension to have a fixed-length array that automatically drops the last entry when pushing over the size.
+Simple Array modification to have a fixed-length array that automatically drops the last entry when pushing over the size.
 
 CappedArrays inherit the prototype methods of Array and override the push and unshift methods, so in principle you can
 use them as usual arrays.
